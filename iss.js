@@ -11,7 +11,7 @@ function login() {
     var password = document.getElementById("password").value;
 
     // Simple validation, replace with proper authentication logic
-    if (username === "Leda" && password === "Leda1958") {
+    if (username === "Bari" && password === "Bari2222") {
         alert("Login successful!");
         // Redirect to the dashboard after a successful login
         window.location.href = "dashboard.html";
@@ -28,8 +28,8 @@ document.getElementById("logout").addEventListener("click", logout);
 
 function checkAvailableBalance() {
     // Perform logic to calculate available balance (placeholder value for demonstration)
-    var savingsBalance = 250000.00;
-    var currentBalance = 250000.00;
+    var savingsBalance = 350000.00;
+    var currentBalance = 160000.00;
 
     var availableBalance = savingsBalance + currentBalance;
 
