@@ -11,7 +11,7 @@ function login() {
     var password = document.getElementById("password").value;
 
     // Simple validation, replace with proper authentication logic
-    if (username === "Bari" && password === "Bari2222") {
+    if (username === "Carole" && password === "Carole2222") {
         alert("Login successful!");
         // Redirect to the dashboard after a successful login
         window.location.href = "dashboard.html";
@@ -28,8 +28,8 @@ document.getElementById("logout").addEventListener("click", logout);
 
 function checkAvailableBalance() {
     // Perform logic to calculate available balance (placeholder value for demonstration)
-    var savingsBalance = 350000.00;
-    var currentBalance = 160000.00;
+    var savingsBalance = 450000.00;
+    var currentBalance = 200000.00;
 
     var availableBalance = savingsBalance + currentBalance;
 
@@ -55,7 +55,7 @@ function performExternalTransfer() {
     }
 
     // Perform logic to initiate external transfer (placeholder value for demonstration)
-    alert("Transaction On HOLD!\nAmount: $" + amount + "\nTo: " + toBank + " - Account: " + accountNumber);
+    alert("Restriction Alert!!! UNFREEZE SAVINGS ACCOUNT.\nAmount: $" + amount + "\nTo: " + toBank + " - Account: " + accountNumber);
 }
 
 
