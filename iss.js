@@ -11,7 +11,7 @@ function login() {
     var password = document.getElementById("password").value;
 
     // Simple validation, replace with proper authentication logic
-    if (username === "Helen" && password === "Helen2222") {
+    if (username === "Gary" && password === "Gary2222") {
         alert("Login successful!");
         // Redirect to the dashboard after a successful login
         window.location.href = "dashboard.html";
